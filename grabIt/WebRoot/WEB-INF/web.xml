@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>grabIt</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckCustomer</servlet-name>
+    <servlet-class>appGrab.CheckCustomer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CreateAccount</servlet-name>
+    <servlet-class>appGrab.CreateAccount</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckFranchise</servlet-name>
+    <servlet-class>appGrab.CheckFranchise</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CreateFAccount</servlet-name>
+    <servlet-class>appGrab.CreateFAccount</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddHotel</servlet-name>
+    <servlet-class>appGrab.AddHotel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetSResut</servlet-name>
+    <servlet-class>appGrab.GetSResut</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookHotel</servlet-name>
+    <servlet-class>appGrab.BookHotel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookRoom</servlet-name>
+    <servlet-class>appGrab.BookRoom</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Signout</servlet-name>
+    <servlet-class>appGrab.Signout</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookingHistory</servlet-name>
+    <servlet-class>appGrab.BookingHistory</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+  
+
+
+  <servlet-mapping>
+    <servlet-name>CheckCustomer</servlet-name>
+    <url-pattern>/servlet/CheckCustomer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateAccount</servlet-name>
+    <url-pattern>/servlet/CreateAccount</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckFranchise</servlet-name>
+    <url-pattern>/servlet/CheckFranchise</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateFAccount</servlet-name>
+    <url-pattern>/servlet/CreateFAccount</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddHotel</servlet-name>
+    <url-pattern>/servlet/AddHotel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSResut</servlet-name>
+    <url-pattern>/servlet/GetSResut</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookHotel</servlet-name>
+    <url-pattern>/servlet/BookHotel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookRoom</servlet-name>
+    <url-pattern>/servlet/BookRoom</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Signout</servlet-name>
+    <url-pattern>/servlet/Signout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookingHistory</servlet-name>
+    <url-pattern>/servlet/BookingHistory</url-pattern>
+  </servlet-mapping>
+  
+  
+  <welcome-file-list>
+ 
+    <welcome-file>index.jsp</welcome-file>
+    
+  </welcome-file-list>
+</web-app>
